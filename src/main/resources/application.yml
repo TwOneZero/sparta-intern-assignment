@@ -22,8 +22,7 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
     show-sql: true
 jwt:
-  access-key: ${JWT_ACCESS_KEY}
-  refresh-key: ${JWT_REFRESH_KEY}
+  secret-key: ${JWT_SECRET_KEY}
   access-token-expiration: ${ACCESS_TOKEN_EXPIRATION}
   refresh-token-expiration: ${REFRESH_TOKEN_EXPIRATION}
 
@@ -38,3 +37,6 @@ springdoc:
     path: /v3/api-docs
   swagger-ui:
     path: /swagger-ui.html
+  enable-spring-security: true
+  default-consumes-media-type: application/json;charset=UTF-8 # ?? ?? Data Type
+  default-produces-media-type: application/json;charset=UTF-8 # ?? ?? Data Type
