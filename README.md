@@ -73,4 +73,9 @@ public class RoleTypesConverter implements AttributeConverter<Set<RoleType>, Str
 }
 ```
 
+### 개선 필요 보안점
+- 리프레쉬 토큰 블랙리스트
+  - 토큰 로테이션으로 accessToken, refreshToken 을 모두 재발급받아도, 생명주기가 긴 refreshToken 은 위험이 있기에 Redis 등에 저장하여 조회해서 검증 후 사용하도록 할 필요가 있음
+
+- 요청 IP 검증을 통해 알림 보내기
 
