@@ -26,6 +26,6 @@ public class SwaggerConfig {
                                 .scheme("bearer")
                                 .bearerFormat("JWT")))
                 .addSecurityItem(new SecurityRequirement().addList("bearer-jwt"))
-                .addServersItem(new Server().url("http://localhost:8080"));
+                .addServersItem(new Server().url("/"));
     }
 }

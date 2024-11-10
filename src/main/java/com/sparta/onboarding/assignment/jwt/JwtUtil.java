@@ -57,7 +57,6 @@ public class JwtUtil {
         Cookie cookie = new Cookie(cookieName, refreshToken);
         // 쿠키 속성 설정
         cookie.setHttpOnly(true);
-        cookie.setSecure(true);
         cookie.setPath("/");
         cookie.setMaxAge(60 * 60 * 24);
         return cookie;
