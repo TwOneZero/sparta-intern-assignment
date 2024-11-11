@@ -1,6 +1,6 @@
 # 내일배움캠프 한달인턴 온보딩 과제 (JAVA)
 
-- **API docs** : [Swagger](http://43.200.21.99:8080/swagger-ui/index.html#/)
+- **API docs** : [Swagger](http://43.200.21.99:8080/swagger-ui.html)
 
 ## Features
 - Spring Security + JWT 를 활용한 인증, 인가 기능
