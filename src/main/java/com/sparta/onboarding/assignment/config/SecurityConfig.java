@@ -69,7 +69,8 @@ public class SecurityConfig {
                         .requestMatchers("configuration/security").permitAll()
                         .requestMatchers("swagger-ui/**").permitAll()
                         .requestMatchers("webjars/**").permitAll()
-                        .requestMatchers("swagger-ui.html").permitAll()
+                        .requestMatchers("swagger-ui.html/**").permitAll()
+                        .requestMatchers("favicon.ico").permitAll()
                 )
         ;
         return http.build();
