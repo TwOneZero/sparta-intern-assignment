@@ -1,7 +1,6 @@
 # 내일배움캠프 한달인턴 온보딩 과제 (JAVA)
 
-- **API docs** : [Swagger](http://43.200.21.99:8080/swagger-ui.html)
-
+- **API docs** : [Swagger](http://43.200.21.99:8080/swagger-ui.html) (*401 에러 시, 핫스팟으로 접속하시길 부탁드립니다. 공용와이파이 사용에 대한 문제를 확인 중에 있습니다.* )
 ## Features
 - Spring Security + JWT 를 활용한 인증, 인가 기능
   -  Token 리프레시 기능
